@@ -33,13 +33,10 @@ Clone the repository
  -First, clone the repository to your local machine:
 
  ```git clone https://github.com/your-username/your-repository-name.git```
-  cd your-repository-name
+ ```cd your-repository-name```
 
  -Install dependencies
-
-Run the following command to install all the required dependencies:
-
-  -npm install
+  ```npm install```
 *****************************************************************************************************************************************
 
 # 5. Configuration
@@ -49,15 +46,17 @@ Run the following command to install all the required dependencies:
 -Create a .env file in the root of the project (if not already there).
 
 -Add the required environment variables, for example:
-NODE_ENV=development
+``` NODE_ENV=development
 PORT=3000
+
 #If you are using mongoDb locally use this
 DATABSE_LOCAL=mongodb://localhost:27017/DATABASE_NAME
+
 #If you are using mongodb server on chrome use this url
 DATABASE=mongodb+srv://xyz:@cluster0.py4swan.mongodb.net/natours?retryWrites=true&w=majority&appName=Cluster0
-#Here use your password
-DATABASE_PASSWORD=xyz
 
+#Here use your password
+DATABASE_PASSWORD=xyz```
 *****************************************************************************************************************************************
 
 # 6. Running the Application
