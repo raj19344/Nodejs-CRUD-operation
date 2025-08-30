@@ -1,0 +1,11 @@
+NODE_ENV=development
+PORT=3000
+
+#If you are using mongoDb locally use this
+DATABSE_LOCAL=mongodb://localhost:27017/DATABASE_NAME
+
+#If you are using mongodb server on chrome use this url
+DATABASE=mongodb+srv://xyz:@cluster0.py4swan.mongodb.net/natours?retryWrites=true&w=majority&appName=Cluster0
+
+#Here use your password
+DATABASE_PASSWORD=xyz
