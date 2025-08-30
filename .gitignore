@@ -1,0 +1,19 @@
+# Node.js dependencies
+node_modules/
+package.json
+package-lock.json
+
+# Environment files (do not push sensitive data like API keys)
+.env
+config.env
+
+# Log files
+*.log
+
+# IDE or editor specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
