@@ -7,6 +7,7 @@ class APIFeatures{
     }
     filter(){
         this.queryObj={...this.queryString};
+        
         //Exclude the non required filtering fields
         const excludeFields=["page","sort","limit","fields"];
         excludeFields.forEach(el => delete this.queryObj[el]);
